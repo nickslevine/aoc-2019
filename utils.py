@@ -1,5 +1,5 @@
 def read_input(filename):
-    f = open(filename, 'r')
+    f = open("inputs/" + filename, 'r')
     lines = f.readlines()
     stripped = map(lambda x: x.strip(), lines)
     return list(stripped)
